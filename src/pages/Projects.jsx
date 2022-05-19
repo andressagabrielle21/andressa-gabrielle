@@ -9,6 +9,7 @@ export default function Projects() {
     <motion.div initial={{opacity:0}} animate={{opacity: 1}} exit={{opacity: 0}}> 
       <Container>
         <h1>Projects</h1>
+        
         <Project
           title="What's on cinemas?" 
           projectInfo="A React aplication consuming TMDB API showing movies and its informations playing on cinemas right now. This project used the Styled Components and the React Router DOM libraries."
